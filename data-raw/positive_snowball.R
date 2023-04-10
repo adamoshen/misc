@@ -12,3 +12,4 @@ positive_snowball <- tidytext::stop_words %>%
   dplyr::filter(!(word %in% neg_words))
 
 qs::qsave(positive_snowball, "./data-raw/positive_snowball.qs")
+saveRDS(positive_snowball, "./data-raw/positive_snowball.rds", version=2)
