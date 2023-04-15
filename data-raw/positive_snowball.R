@@ -9,6 +9,7 @@ neg_words <- c("isn't", "aren't", "wasn't", "weren't", "hasn't", "haven't", "had
 
 positive_snowball <- tidytext::stop_words %>%
   dplyr::filter(lexicon == "snowball") %>%
+  dplyr::select(-lexicon) %>%
   dplyr::filter(!(word %in% neg_words))
 
 qs::qsave(positive_snowball, "./data-raw/positive_snowball.qs")
