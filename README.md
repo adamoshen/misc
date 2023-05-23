@@ -1,1 +1,1 @@
-Miscellaneous code snippets.
+Miscellaneous code snippets and stylesheets.
