@@ -1,0 +1,16 @@
+/*-- scss:defaults --*/
+
+$link-color: #009E73;
+$presentation-font-size-root: 30px;
+$presentation-h1-font-size: 4rem;
+$presentation-h2-font-size: 3.3rem;
+$presentation-h3-font-size: 2.6rem;
+$presentation-h4-font-size: 1.9rem;
+$code-color: #EDE2A4;
+
+/*-- scss:rules --*/
+
+.reveal pre code {
+  padding: 10px;
+  max-height: fit-content;
+}
