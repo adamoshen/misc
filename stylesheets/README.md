@@ -3,9 +3,11 @@ devices. When viewing long horizontal code on a mobile device, the background of
 not cover the entirety of the code.
 
 Without `rmd.css`:
+
 ![Before rmd.css](./img/before-rmd-css.png)
 
 With `rmd.css`:
+
 ![After rmd.css](./img/after-rmd-css.png)
 
 *The difference is not visible if your screen is large enough such that you don't need to scroll
